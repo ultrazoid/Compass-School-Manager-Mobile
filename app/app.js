@@ -42,14 +42,14 @@ new Ext.Application({
 					title: 'More',
                     xtype: 'form',
                     styleHtmlContent: true,
-					html:'<h2>About</h2>This app (Compass School Manager) was developed as a UI (User Interface) test by Emerson "ultrazoid_" Pender for JDLF International Pty. Ltd.<h2>Profile</h2>To vew your profile <a href= "subsites/profile/index.html">click here</a><a href="http://192.168.0.31/~user/mocksites/ourschoolwebsite.html"><h2>Our School Website</h2></a>School website is non-mobile<a href= "http://192.168.0.31/~user/mocksites/studenthandbook.html"><h2>Student Handbook</h2></a>Student Handbook is non-mobile',
+		    html:'<h2>About</h2>This app (Compass School Manager) was developed as a UI (User Interface) test by Emerson "ultrazoid_" Pender for JDLF International Pty. Ltd.<h2>Profile</h2>To vew your profile <a href= "subsites/profile/index.html">click here</a><a href="http://192.168.0.31/~user/mocksites/ourschoolwebsite.html"><h2>Our School Website</h2></a>School website is non-mobile<a href= "http://192.168.0.31/~user/mocksites/studenthandbook.html"><h2>Student Handbook</h2></a>Student Handbook is non-mobile',
                     scroll: /*Ext.is.phone ?*/ 'vertical',
                     dockedItems: [{
                         xtype: 'toolbar',
                         dock: 'top',
                         items: [{
                             xtype: 'searchfield',
-                            placeHolder: 'Search',
+                            placeHolder: 'Search CSM',
                             name: 'searchfield',
                             cleartext: true
                         }]
