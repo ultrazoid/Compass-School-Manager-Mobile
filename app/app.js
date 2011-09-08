@@ -50,8 +50,7 @@ new Ext.Application({
                         items: [{
                             xtype: 'searchfield',
                             placeHolder: 'Search CSM',
-                            name: 'searchfield',
-                            cleartext: true
+                            name: 'searchfield'
                         }]
                     }]
 
